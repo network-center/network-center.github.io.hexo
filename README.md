@@ -1,6 +1,6 @@
 # network-center.github.io Hexo 源码
 ## TODO
-- [ ] 修改 theme 配置文件、hexo 配置文件
+- [x] 修改 theme 配置文件、hexo 配置文件
 - [ ] 完善网站基本信息、分类、目录结构
 - [ ] 编写项目书写规范
 - [ ] 编写项目参与贡献流程
@@ -20,3 +20,6 @@ hexo g
 # star server 
 hexo s
 ```
+
+## Thanks
+- Hexo Theme [material](https://material.viosey.com)
