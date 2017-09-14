@@ -55,7 +55,6 @@
 
 ## TODO
 - [ ] 完善网站基本信息、分类、目录结构
-- [ ] 编写项目书写规范 markdown 规范
 
 ## Members
 ### Yifans_Z
