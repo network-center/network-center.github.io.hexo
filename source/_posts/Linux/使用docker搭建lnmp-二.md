@@ -14,7 +14,7 @@ docker 名为容器。何为容器，也就是所谓的瓶子，罐子。用可�
 
 ![](/img/tuopu.png)
 
-#### 获取lnmp镜像
+#### 获取镜像
 
 ```bash
 $ docker search lnmp
@@ -41,7 +41,7 @@ Digest: sha256:a555d86ace933743c1c1f0373f16931a58dd737f889a04cfd8027e3eeb0c3c48
 Status: Downloaded newer image for domainer/centos-lnmp:latest
 ```
 
-#### 运行一个docker
+#### 运行docker
 
 ```bash
 $ docker run -d -v /etc/docker_nginx:/etc/nginx -v /tmp:/tmp -v /usr/share/docker_nginx:/usr/share/nginx -p 8080:80 --name my_blog domainer/centos-lnmp #外部端口8080映射到内部80端口 
@@ -50,7 +50,7 @@ CONTAINER ID        IMAGE                  COMMAND             CREATED          
 b9c310b6bf8a        domainer/centos-lnmp   "supervisord -n"    5 seconds ago       Up 4 seconds        22/tcp, 0.0.0.0:8080->80/tcp   my_blog
 ```
 
-#### 进入该容器里面
+#### 启动服务
 
 ```bash
 $ docker exec -ti my_blog /bin/bash ## 进入容器
@@ -107,9 +107,9 @@ $ mysql -uroot -pSlightech602 < wordpress.sql
 如果出现`Unknown collation: 'utf8mb4_unicode_520_ci'` 只需要把`utf8mb4_unicode_520_ci`替换成`utf8_general_ci`
 如果出现`Unknown collation: 'utf8mb4'` 只需要把`utf8mb4`替换成`utf8`
 
-#### 找到WordPress项目，然后更改配置文件，改成mysql的账号密码和数据库 （略）
+#### 更改项目配置（略）
 
-#### 前端机nginx绑定域名，并且将请求转发到8080端口
+#### 请求转发
 
 ```nginx
 upstream docker0 {
@@ -128,9 +128,7 @@ server {
 }
 ```
 
-#### 访问域名，测试是否正常
-
-test.feilong.tech
+#### 测试域名（略）
 
 #### 总结
 
