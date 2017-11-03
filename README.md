@@ -73,6 +73,8 @@
 - GitHub: https://github.com/freetureAI
 
 ### wave
+- Email：botaogou@gmail.com
+- Location：Beijing
 - Blog: http://imbotao.top
 
 ## Thanks
