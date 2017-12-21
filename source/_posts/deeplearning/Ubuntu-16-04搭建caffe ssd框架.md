@@ -262,3 +262,6 @@ $ python examples/ssd/ssd_pascal_webcam.py
     $ sudo make
     $ sudo make install
     ```
+
+feilong
+2017.12.21
