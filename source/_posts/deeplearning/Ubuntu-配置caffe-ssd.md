@@ -1,6 +1,7 @@
 ---
-title: Ubuntu 16.04搭建caffe ssd框架
+title: Ubuntu 配置caffe ssd
 date: 2017-12-21
+tags:
 ---
 
 caffe 是一个比较有名的深度学习框架，在视频和图像方面应用比较广泛，因为NVIDIA主要是做GPU和视觉，所以caffe和NIVEA关系比较亲密。使用的GPU驱动也是NVIDIA驱动和NVIDIA cuda8.0。
