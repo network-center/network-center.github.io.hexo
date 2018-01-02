@@ -67,7 +67,7 @@
 ### Feilong
 - Email: 569914877@qq.com
 - Location: Beijing
-- Blog: http://feilong.tech
+- Blog: https://feilong.tech
 
 ### freetureAI
 - GitHub: https://github.com/freetureAI
