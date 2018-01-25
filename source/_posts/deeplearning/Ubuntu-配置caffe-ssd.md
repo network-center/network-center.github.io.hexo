@@ -6,28 +6,6 @@ tags:
 
 caffe 是一个比较有名的深度学习框架，在视频和图像方面应用比较广泛，因为NVIDIA主要是做GPU和视觉，所以caffe和NIVEA关系比较亲密。使用的GPU驱动也是NVIDIA驱动和NVIDIA cuda8.0。
 
-- [安装cuda 8.0](#安装cuda-80)
-    - [下载cuda 8.0和补丁](#下载cuda-80和补丁)
-    - [安装cuda 所需要的库](#安装cuda-所需要的库)
-    - [安装cuda 8.0](#安装cuda-80-1)
-    - [安装补丁](#安装补丁)
-- [安装caffe所需要的依赖](#安装caffe所需要的依赖)
-    - [安装protobuf、BLAS、Boost、hdf5等](#安装protobufblasboosthdf5等)
-- [安装OpenCV 3.0 (https://github.com/opencv/opencv/releases/tag/3.0.0)](#安装opencv-30-httpsgithubcomopencvopencvreleasestag300)
-    - [安装依赖](#安装依赖)
-    - [下载OpenCV](#下载opencv)
-- [安装cuDNN](#安装cudnn)
-    - [安装拓展](#安装拓展)
-    - [下载cudnn类库](#下载cudnn类库)
-    - [解压安装](#解压安装)
-- [安装NVIDIA驱动(可选)](#安装nvidia驱动可选)
-- [编译caffe-ssd](#编译caffe-ssd)
-- [运行作者样例](#运行作者样例)
-- [将图片转化为LMDB文件](#将图片转化为lmdb文件)
-- [训练模型](#训练模型)
-- [在摄像头上测试](#在摄像头上测试)
-- [错误处理](#错误处理)
-
 ## 安装cuda 8.0
 
 ### 下载cuda 8.0和补丁
