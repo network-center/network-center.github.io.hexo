@@ -19,13 +19,13 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: /usr/local/var/www/network-center.github.io
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: /usr/local/var/www/network-center.github.io/.git
 
 # Writing
 new_post_name: :title.md # File name of new posts
