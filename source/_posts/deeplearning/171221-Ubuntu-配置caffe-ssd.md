@@ -106,7 +106,11 @@ $ sudo apt install snappy libleveldb-dev liblmdb-dev -y
 
 ### 下载cudnn类库
 
+<<<<<<< HEAD
 ![](/images/20171221/cudnn.png)
+=======
+![](/images/cudnn.png)
+>>>>>>> 094473c98ed0f50d498e3e29a19ae068959031b6
 
 ### 解压安装
 
