@@ -2,6 +2,7 @@
 title: Ubuntu 配置caffe ssd
 date: 2017-12-21
 tags:
+articleid: 20171221
 ---
 
 caffe 是一个比较有名的深度学习框架，在视频和图像方面应用比较广泛，因为NVIDIA主要是做GPU和视觉，所以caffe和NIVEA关系比较亲密。使用的GPU驱动也是NVIDIA驱动和NVIDIA cuda8.0。
@@ -12,7 +13,7 @@ caffe 是一个比较有名的深度学习框架，在视频和图像方面应�
 
 浏览器访问 https://developer.nvidia.com/cuda-80-ga2-download-archive 下载Base Installer和Patch 2
 
-![](/img/CUDA_Toolkit_8_0.png)
+![](/images/20171221/CUDA_Toolkit_8_0.png)
 
 ### 安装cuda 所需要的库
 
@@ -105,7 +106,7 @@ $ sudo apt install snappy libleveldb-dev liblmdb-dev -y
 
 ### 下载cudnn类库
 
-![](/img/cudnn.png)
+![](/images/20171221/cudnn.png)
 
 ### 解压安装
 
