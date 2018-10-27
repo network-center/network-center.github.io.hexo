@@ -12,7 +12,7 @@ caffe 是一个比较有名的深度学习框架，在视频和图像方面应�
 
 浏览器访问 https://developer.nvidia.com/cuda-80-ga2-download-archive 下载Base Installer和Patch 2
 
-![](/img/CUDA_Toolkit_8_0.png)
+![](/images/CUDA_Toolkit_8_0.png)
 
 ### 安装cuda 所需要的库
 
@@ -105,7 +105,7 @@ $ sudo apt install snappy libleveldb-dev liblmdb-dev -y
 
 ### 下载cudnn类库
 
-![](/img/cudnn.png)
+![](/images/cudnn.png)
 
 ### 解压安装
 
